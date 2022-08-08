@@ -1,0 +1,28 @@
+var resultado= (1>2) ? "verdadero" : "falso";
+		var numero=8;
+		resultado= (numero % 2 == 0) ? "numero par" : "numero impar";
+		System.out.println("Resultado = " + resultado );
+		----------------> Este programa imprime "par" al ser la variable numero par (8)
+	
+		int resultado = (3 > 2) ? "Verdadero" : "Falso" ----> ? Para el resultado verdadero y : para el falso
+		--------------------------------------------------
+		Switch se usa normalmente para elegir una opcion en un formulario o para convertir un numero en texto.
+		
+		int numero = 2;
+		String numeroTexto = "Valor desconocido";
+		switch(numero){
+			case 1:
+			numeroTexto= "Uno";
+			break;
+			case 2:
+			numeroTexto="Dos";
+			break;
+			case 3:
+			numeroTexto="Tres";
+			default:
+			numeroTexto="Numero no encontrado";
+		}
+		
+		System.out.println("NumeroTexto= " + numeroTexto); ---> Este programa imprimira por pantalla el texto: Dos
+		------------------------------------------
+		
